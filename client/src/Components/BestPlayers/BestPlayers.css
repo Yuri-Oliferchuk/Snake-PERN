@@ -1,0 +1,33 @@
+
+.bestPlayer {
+    display: grid;
+    grid-template-areas: "playerPosition playerName playerScore";
+    grid-template-columns: 50px 150px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.playerPosition{
+    grid-area: playerPosition;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerName{
+    grid-area: playerName;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerScore{
+    grid-area: playerScore;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
